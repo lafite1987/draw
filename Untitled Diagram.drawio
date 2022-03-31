@@ -1,1 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T14:03:37.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="17.2.4" etag="zdwCG0ZRm0hM_WnSXS6n" type="github"><diagram id="7onSPuC8ENT-nHdY6P8_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-31T14:17:41.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="wpf7ZnuFhBgf2Jvjcqz-" version="17.2.4" type="github">
+  <diagram id="7onSPuC8ENT-nHdY6P8_" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h3GgDZLWni8uG-t9xLVF-1" target="h3GgDZLWni8uG-t9xLVF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-9" value="100维特征" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h3GgDZLWni8uG-t9xLVF-1" target="h3GgDZLWni8uG-t9xLVF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-17" value="200维特征" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h3GgDZLWni8uG-t9xLVF-1" target="h3GgDZLWni8uG-t9xLVF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-1" value="主题：理财通全场景物品特征&lt;br&gt;假如1000维特征&lt;br&gt;1084个物品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-2" value="model_plan：lct_full_scene&lt;br&gt;feature_table:dal_lct_full_scene" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="150" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h3GgDZLWni8uG-t9xLVF-5" target="h3GgDZLWni8uG-t9xLVF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="h3GgDZLWni8uG-t9xLVF-5" target="h3GgDZLWni8uG-t9xLVF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-13" value="1维特征" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h3GgDZLWni8uG-t9xLVF-10">
+          <mxGeometry x="-0.1355" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-5" value="主题：理财通用户首页&lt;br&gt;1维特征：其实就是物品id&lt;br&gt;200个物品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-6" value="model_plan：lct_fund_main&lt;br&gt;feature_table:dal_lct_fund_main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-8" value="模型组（特征关联）&lt;br&gt;lct_fund_main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-14" value="模型组（特征关联）&lt;br&gt;advance_stock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-16" value="1维特征" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="h3GgDZLWni8uG-t9xLVF-15" target="h3GgDZLWni8uG-t9xLVF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h3GgDZLWni8uG-t9xLVF-15" target="h3GgDZLWni8uG-t9xLVF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-15" value="主题：理财通进阶页&lt;br&gt;1维特征：其实就是物品id&lt;br&gt;133个物品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-18" value="model_plan：advance_stock&lt;br&gt;feature_table:dal_advance_stock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="10" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-20" value="物品特征服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-22" value="advance_stock" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="500" as="sourcePoint" />
+            <mxPoint x="340" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-24" value="133个物品的201维特征" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="530" as="sourcePoint" />
+            <mxPoint x="170" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-25" value="物品特征服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="585" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-26" value="lct_fund_main" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="605" as="sourcePoint" />
+            <mxPoint x="340" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3GgDZLWni8uG-t9xLVF-27" value="200个物品的101维特征" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="635" as="sourcePoint" />
+            <mxPoint x="170" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
