@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T10:28:00.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="EPsMVoat9y8GSBEchaVI" version="17.4.5" type="github" pages="2">
-  <diagram id="nZ7NvAS3yY4Yi7hNIu3f" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2022-04-17T10:43:23.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="6BaVqlHpLLpZcsoThF7e" version="17.4.5" type="github" pages="2">
+  <diagram id="nZ7NvAS3yY4Yi7hNIu3f" name="1-系统上下文视图">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -95,11 +95,47 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="eNS8EoFaluiwnUeZp0PB" name="Page-2">
+  <diagram id="eNS8EoFaluiwnUeZp0PB" name="3.1-组件">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-1" value="Order System" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="600" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bz5giE-aEPIMnW4V5SGV-2" target="bz5giE-aEPIMnW4V5SGV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bz5giE-aEPIMnW4V5SGV-2" target="bz5giE-aEPIMnW4V5SGV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-2" value="Ec Controller&lt;br&gt;[Component:Restful]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="310" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bz5giE-aEPIMnW4V5SGV-3" target="bz5giE-aEPIMnW4V5SGV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bz5giE-aEPIMnW4V5SGV-3" target="bz5giE-aEPIMnW4V5SGV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-3" value="Ec Component&lt;br&gt;[Component:Spring Beans]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-4" value="Merchant Service&lt;br&gt;[Component:Dubbo Service]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-5" value="Express Adapter&lt;br&gt;[Component:Spring Beans]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="450" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bz5giE-aEPIMnW4V5SGV-6" target="bz5giE-aEPIMnW4V5SGV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-6" value="Ec Order&lt;br&gt;[Component:Restful]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bz5giE-aEPIMnW4V5SGV-11" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="150" y="640" width="140" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
