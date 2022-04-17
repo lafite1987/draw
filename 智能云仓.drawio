@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T15:36:33.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="sFs-FXc3Y529xG6LuOZ7" version="17.4.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-17T15:46:55.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="0Is5kp0O2g6luPdVkC3i" version="17.4.5" type="github" pages="3">
   <diagram id="nZ7NvAS3yY4Yi7hNIu3f" name="1-系统上下文视图">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rOJleQIcsSHzTT32t135-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4kOKBaUTyX9RO6gAoAvP-1" target="rOJleQIcsSHzTT32t135-54">
+        <mxCell id="rOJleQIcsSHzTT32t135-55" value="Write/Read" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4kOKBaUTyX9RO6gAoAvP-1" target="rOJleQIcsSHzTT32t135-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4kOKBaUTyX9RO6gAoAvP-1" value="智能云仓系统" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -191,7 +191,7 @@
           <mxGeometry x="790" y="230" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rOJleQIcsSHzTT32t135-54" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
-          <mxGeometry x="265" y="650" width="140" height="90" as="geometry" />
+          <mxGeometry x="265" y="600" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="rOJleQIcsSHzTT32t135-60" value="电商接口适配器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="100" y="360" width="300" height="170" as="geometry" />
